@@ -4,5 +4,8 @@ import "fmt"
 
 // 程序从 main 函数开始执行
 func main() {
+	/*
+		多行注释
+	*/
 	fmt.Println("Hello World")
 }
