@@ -7,5 +7,5 @@ func main() {
 	/*
 		多行注释
 	*/
-	fmt.Println("Hello World")
+	fmt.Println("Hello World!")
 }

@@ -97,3 +97,10 @@ func sum(args ...int) int {
 func call(callback func() int) {
 	fmt.Println("callback:", callback())
 }
+
+// 提前声明返回值
+func rtn() (r1, r2 int) {
+	r1 = 10
+	r2 = 20
+	return
+}
